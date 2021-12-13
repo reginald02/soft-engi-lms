@@ -59,7 +59,7 @@ namespace soft_engi_lms
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(181, 85);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Log In as Teacher";
+            this.label3.Text = "Log In as Student";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -103,7 +103,7 @@ namespace soft_engi_lms
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
-            this.Text = "Teacher Log In";
+            this.Text = "Student Log In";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
